@@ -1,0 +1,19 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vercel/
+.openai/
+.sites-runtime/
+
+# Development and preview artifacts
+node_modules/
+playwright-report/
+test-results/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
